@@ -1,0 +1,98 @@
+
+body {
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    /*background: url("http://placehold.it/750x450") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#container {
+    padding: 25px;
+}
+
+.popover{
+    width:200px;
+    height:250px;
+
+}
+
+/* image shake event class */
+.transition {
+	-ms-transform: rotate(1deg); /* IE 9 */
+	-webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+	transform: rotate(1deg);
+
+
+} /* end shake css */
+
+
+footer p {
+	color: #999999;
+}
+
+html body div.container nav.navbar.navbar-default div.container div.navbar-header a.navbar-brand {
+	/*
+	color: #00A443;
+*/
+}
+
+
+html body div.brand {
+	color: #FDB900;
+	font-family: monaco,Consolas,Lucida Console,monospace;
+
+} /* club heading */
+
+
+html body div.address-bar{
+	color: #999999;
+} /* addresss heading */
+
+html body img.img-responsive {
+	-webkit-box-shadow: 2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+	-moz-box-shadow:    2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+	box-shadow:         2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+	} /* club logo */
+
+
+html body div.container nav.navbar.navbar-default div.container div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav li a {
+	color: #999999;
+} /* navbar menu buttons */
+
+
+html body div.container div.container div.col-lg-12 h2.intro-text.text-center{
+	color: #999999;
+} /* intro-text text-center NAMES */
+
+
+
+html body div.container div.container div.col-lg-12 div.container p {
+	color: #FAFAFA;
+} /*	Home body text */
+
+html body div.container nav.navbar.navbar-default div.container div.navbar-header button.navbar-toggle {
+
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(86, 50, 50, 0.61);
+	-moz-box-shadow:    1px 3px 5px 0px rgba(86, 50, 50, 0.61);
+	box-shadow:         1px 3px 5px 0px rgba(86, 50, 50, 0.61);
+	} /* navbar three-bar icon */
+
+button {
+		-webkit-box-shadow: 2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+	-moz-box-shadow:    2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+	box-shadow:         2px 5px 10px 0px rgba(86, 50, 50, 0.61);
+} /* all btns */
+
+
+
+
+
+
+
+
+
+
+
+
