@@ -4,16 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/*
+
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../data/bg.png') no-repeat center center fixed;
+    /*background: url('http://dmpdental.us/wp-content/uploads/2013/06/icon-beaker-big.png') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-*/
+
 
 h1,
 h2,

@@ -7,6 +7,9 @@ MODIFIED:
 *************************************/
 
 $(document).ready(function(argument){
+
+
+
 	// default custom events
 	$('.imgShake').hover(function() {
 		$(this).addClass('transition');
@@ -19,6 +22,7 @@ $(document).ready(function(argument){
 
 	$(".homePage").hide(50); // hide home page stuff
 	$(".aboutPageContent").hide(50); // hide home page stuff
+	$(".eventPageContent").hide(50); // hide home page stuff
 
 
 	//..javascript for page body goes here
@@ -44,6 +48,7 @@ $(document).ready(function(argument){
 		$("footer").hide(760);// hide form
 		$(".homePage").hide(760); // hide home page stuff
 		$(".aboutPageContent").show(760)
+		$(".eventPageContent").hide(760);
 
 
 	}); // end about page btn function
@@ -59,8 +64,24 @@ $(document).ready(function(argument){
 		$("footer").hide(760);// hide form
 		//$(this).append('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>');
 		$(".homePage").show(760); // end fade in for home page elems
-		$(".aboutPageContent").hide(760)
+		$(".aboutPageContent").hide(760);
+		$(".eventPageContent").hide(760);
 	}); // end home page btn function
+
+
+
+	// on 'Events' btn click
+	$(".eventPageBtn").click(function(){
+		//$("form").fadeOut('45', function() {});// hide form
+		$("footer").hide(760);// hide form
+		//$(this).append('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>');
+		$(".eventPageContent").show(760); // end fade in for event page elems
+		$(".aboutPageContent").hide(760)
+		$(".homePageContent").hide(760)
+	}); // end event page btn function
+
+
+
 
 
 
@@ -87,7 +108,7 @@ $(document).ready(function(argument){
 
 
 	$(".submitBtn").one('click', function(){
-		$(".contactPageBtn").append('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>'); // add checkmark
+		$(".homePageBtn").append('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>'); // add checkmark
 	}); // end submit btn click
 
 
