@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 						FILENAME:			index.html HOME PAGE FOR CS CLUB IUPUI
-						AUTHOR:			ERIC SCOTT PHUNG
+						AUTHOR:				ERIC SCOTT PHUNG
 						PURPOSE:			HTML5 HOMEPAGE
 				CREATED:		2015.03.01 (ESP)
 -->
@@ -104,22 +104,27 @@
 						</h2>
 						<hr>
 					</div>
+					<!-- PRESIDENT -->
 					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="img/nHubbard.jpg" alt="images" data-toggle="modal" data-target="#exampleModal" data-whatever="@iupui.edu">
-						<h3>Nicholas Hubbard
+						<img id="presidentPic" class="highlight img-responsive img-thumbnail" src="img/nHubbard.jpg" alt="images" data-toggle="modal" data-target="#exampleModal" data-whatever="@iupui.edu">
+						<h3 id="presidentName">Nicholas Hubbard
 						<small>President</small>
 						</h3>
 					</div>
+
+					<!-- VICE PRESIDENT -->
 					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="img/dHuynh.jpg" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
-						<h3>Denver Huynh
+						<img id="vicePresidentPic" class="highlight img-responsive img-thumbnail" src="img/dHuynh.jpg" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+						<h3 id="vicePresidentName">Denver Huynh
 						<small>Vice President</small>
 						</h3>
 					</div>
+
+					<!-- ADVISOR -->
 					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="img/egood.png" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
-						<h3>Emily Good
-						<small>Advisor</small>
+						<img id="senatorPic" class="highlight img-responsive img-thumbnail" src="img/sScheetz.jpg" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+						<h3 id="senatorName">Samuel Scheetz
+						<small>Senator</small>
 						</h3>
 					</div>
 					<div class="clearfix"></div>
@@ -130,24 +135,36 @@
 <!-- PEOPLE 4 ===> 6  =========================  -->
 
 			<div class="container aboutPageContent">
+
+				<!-- WEBMASTER -->
+				<div class="col-sm-4 text-center">
+					<img id="webmasterPic" class="highlight img-responsive img-thumbnail" src="img/ePhung.jpg" alt="images" data-toggle="modal" data-target="#exampleModal" data-whatever="@iupui.edu">
+					<h3 id="webmasterName">Eric Phung
+					<small>Webmaster</small>
+					</h3>
+				</div>
+
+				<!-- TREASURER -->
 					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="img/ePhung.jpg" alt="images" data-toggle="modal" data-target="#exampleModal" data-whatever="@iupui.edu">
-						<h3>Eric Phung
-						<small>Webmaster</small>
+						<img id="treasurerPic" class="highlight img-responsive img-thumbnail" src="img/rKoontz.jpg" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+						<h3 id="treasurerName">Ryan Koontz
+						<small>Treasurer</small>
 						</h3>
 					</div>
+
+					<!-- AMBASSADOR -->
 					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="http://placehold.it/750x450" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
-						<h3>John Smith
-						<small>President</small>
+						<img id="ambassadorPic" class="highlight img-responsive img-thumbnail" src="img/aSussman.jpg" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+						<h3 id="ambassadorName">Adam Sussman
+						<small>Ambassador</small>
 						</h3>
 					</div>
-					<div class="col-sm-4 text-center">
-						<img class="highlight img-responsive img-thumbnail" src="http://placehold.it/750x450" alt="image" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
-						<h3>John Smith
-						<small>Job Title</small>
-						</h3>
-					</div>
+
+
+
+
+
+
 					<div class="clearfix"></div>
 
 			</div>
@@ -155,34 +172,6 @@
 
 
 
-<!-- EMAIL MODAL  ============================-->
-
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Hello Email</h4>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="control-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <br>
@@ -193,7 +182,7 @@
 
 <div class="container eventPageContent">
     <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
+        <h1 id="timeline">Events</h1>
     </div>
     <ul class="timeline">
 
@@ -328,7 +317,7 @@
 
 
 
-
+<!-- EXTRA TIMELINE PANEL
         <li class="timeline-inverted">
           <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
           <div class="timeline-panel">
@@ -340,46 +329,131 @@
             </div>
           </div>
         </li>
+-->
+
+
     </ul>
 </div>
 
-			<!-- Button trigger modal -->
 
-			<div class="container">
-				<button type="button" class="btnNotify btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
-				Notify Me
-				</button>
+<!--   EMAIL SUPER MODEL =================== -->
+
+<div class="container">
+  <div class="row">
+
+    <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Join Email</a></h1>
+
+  </div>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">We'd Love to Tell You About Our Events</h3>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal col-sm-12">
+
+        	<!-- NAME TEXT FIELD -->
+          <div class="form-group">
+          	<label>Name</label>
+          	<input class="form-control required" placeholder="Your name" data-placement="bottom" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text">
+          </div>
+
+          <!-- MESSAGE TEXT FIELD
+          <div class="form-group">
+          	<label>Message</label>
+          	<textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea>
+          </div>
+          -->
+
+          <!-- EMAIL TEXT FIELD -->
+          <div class="form-group">
+          	<label>E-Mail</label>
+          	<input class="form-control email" placeholder="username@iupui.edu" data-placement="bottom" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text">
+          </div>
+
+          <!--<div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="999-999-9999" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text"></div>
+        	-->
+
+          <div class="form-group">
+          	<button type="submit" class="btn btn-success pull-right">Send It!</button>
+          	<p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not correctly completed. Please fill out all fields correctly.</p>
+          </div>
+
+
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- PERSONALS MODALS  ============================-->
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">More About <span>Me</span></h4>
+                    </div>
+                <div class="modal-body">
+
+                    <img id="modalPic" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" width="140" height="140" alt="Hello Image" class="img-thumbnail img-responsive">
+                    <hr>
+                    <h3 id="modalName" class="media-heading">Joe Sixpack <small>USA</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span id="skillOne" class="label label-warning">HTML5/CSS</span>
+                        <span id="skillTwo" class="label label-info">Adobe CS 5.5</span>
+                        <span id="skillThree" class="label label-info">Microsoft Office</span>
+                        <span id="skillFour" class="label label-success">Windows XP, Vista, 7</span>
+
+                    <hr>
+
+                    <p id="modalBio" class="text-left"><strong>Bio: </strong><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough</button>
+                </div>
+            </div>
 			</div>
-		<br>
+</div>
 
 
-			</div><!-- END BODY DIV -->
-			<!-- BEGIN Modal =================== -->
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<h4 class="modal-title" id="myModalLabel">Sign Up!</h4>
-						</div>
-						<div class="modal-body">
-							<div class="container-fluid">
-								<form>
-									<div class="form-group">
-										<br>
-										<label for="exampleInputEmail1">Email address</label>
-										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-									</div>
-								</form>
-								</div><!-- END FORM DIV -->
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								<button type="submit" class="hideBtn submitBtn btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
-							</div>
-						</div>
-					</div>
-					</div><!-- END Modal -->
+
+
+
+
+
+</div><!-- END BODY DIV -->
+
+
+
+
+
+
+
 
 
 

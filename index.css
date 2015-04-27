@@ -1,4 +1,22 @@
 
+body {
+	background: url('/assets/example/bg_6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-båackground-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  	//background-color: white;
+}
+
+h1 .btn {
+	font-size:30px;
+	background-color: #EC971F;
+	border-color: white;
+}
+
+
+
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
